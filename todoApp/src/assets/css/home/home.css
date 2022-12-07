@@ -1,0 +1,18 @@
+.title-row{
+    position: relative;
+}
+
+.actions{
+    position: absolute!important;
+    top: 0;
+    right: 0;
+    
+}
+
+.delete-btn{
+    color: #e97b7b!important;
+}
+
+.edit-btn{
+    color: #7b7be9!important;
+}
