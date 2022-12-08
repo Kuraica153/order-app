@@ -3,8 +3,8 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
 
-import userRoute from './routes/UserRoute';
-import itemRoute from './routes/ItemRoute';
+import userRoute from './routes/UserRoute.js';
+import itemRoute from './routes/ItemRoute.js';
 
 import { Server } from 'socket.io';
 
