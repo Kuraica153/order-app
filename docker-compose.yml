@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+
+  backend:
+    build: "server/"
+    command: "npm run run"
+    ports:
+    - "5000:5000"
+    depends_on:
+    - mongo
+
+  frontend:
+    build: "todoApp/"
+    ports:
+    - "80:80"
+
+  mongo:
+    image: mongo

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, useParams, useLocation, useNavigate, Navigate } from 'react-router-dom'  
 import SignUp from './components/SignUp/SignUp'
-import { HomePage } from './pages/Homepage'
+import { HomePage } from './pages/HomePage'
 import { LoginPage } from './pages/LoginPage'
 import { SignUpPage } from './pages/SignUpPage'
 import { GoogleOAuthProvider } from "@react-oauth/google";
